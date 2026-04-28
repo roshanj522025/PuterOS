@@ -52,7 +52,6 @@ public class MainActivity extends BridgeActivity {
         settings.setDisplayZoomControls(false);
 
         // Enable hardware acceleration
-        settings.setRenderPriority(WebSettings.RenderPriority.HIGH);
         webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
 
         // Enable file access for uploads
