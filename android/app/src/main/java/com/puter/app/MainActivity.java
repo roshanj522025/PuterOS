@@ -17,7 +17,7 @@ public class MainActivity extends BridgeActivity {
         super.onCreate(savedInstanceState);
 
         // Full-screen immersive mode
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEPS_SCREEN_ON);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         View decorView = getWindow().getDecorView();
         decorView.setSystemUiVisibility(
@@ -28,7 +28,7 @@ public class MainActivity extends BridgeActivity {
     }
 
     @Override
-    protected void onResume() {
+    public void onResume() {
         super.onResume();
         // Re-configure WebView settings after Capacitor bridge initializes
         configureWebView();
