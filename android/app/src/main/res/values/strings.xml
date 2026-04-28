@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puter</string>
+    <string name="title_activity_main">Puter</string>
+    <string name="package_name">com.puter.app</string>
+    <string name="custom_url_scheme">puter</string>
+</resources>

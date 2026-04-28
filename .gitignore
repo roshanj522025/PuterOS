@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Android — keep android/ committed, only exclude generated/local files
+android/app/build/
+android/.gradle/
+android/local.properties
+android/app/puter-release.jks
+android/captures/
+*.apk
+*.aab
+
+# Capacitor
+.capacitor/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit keystores
+*.keystore
+*.jks
