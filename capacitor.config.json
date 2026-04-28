@@ -3,7 +3,9 @@
   "appName": "Puter",
   "webDir": "src",
   "server": {
-    "androidScheme": "https"
+    "url": "https://puter.com",
+    "androidScheme": "https",
+    "cleartext": false
   },
   "android": {
     "allowMixedContent": false,
